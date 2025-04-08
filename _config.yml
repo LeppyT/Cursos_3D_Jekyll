@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 title:              Clean Blog
 email:              your-email@example.com
 description:        A Blog Theme by Start Bootstrap
@@ -12,20 +11,6 @@ twitter_username:   SBootstrap
 github_username:    StartBootstrap
 facebook_username:  StartBootstrap
 instagram_username:  
-=======
-title:              Blog_Cursos_3D
-email:              loja3dgv@gmail.com
-description:        Blog desenvolvido para Cursos 3D
-author:             Liana Justo Petusk Filipe
-baseurl:            "/Cursos_3D_Jekyll"
-url:                "https://leppyt.github.io"
-
-# Social Profiles
-twitter_username:   
-github_username:    LeppyT
-facebook_username:  
-instagram_username:  cursos3dbr
->>>>>>> c8513ae (jekyll build)
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics

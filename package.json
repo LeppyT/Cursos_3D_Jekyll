@@ -26,7 +26,6 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll.git"
     },
     "dependencies": {
-<<<<<<< HEAD
         "bootstrap": "4.6.0",
         "font-awesome": "4.7.0",
         "jquery": "3.6.0",
@@ -34,15 +33,5 @@
     },
     "devDependencies": {
         "browser-sync": "2.26.14"
-=======
-        "bootstrap": "^5.3.5",
-        "font-awesome": "4.7.0",
-        "jquery": "3.6.0",
-        "sass-migrator": "^2.3.1",
-        "startbootstrap-clean-blog": "^6.0.9"
-    },
-    "devDependencies": {
-        "browser-sync": "^3.0.4"
->>>>>>> c8513ae (jekyll build)
     }
 }
