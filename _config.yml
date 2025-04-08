@@ -1,9 +1,9 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title:              Blog Cursos 3D
+email:              loja3dgv@gmail.com
+description:        Blog para loja de cursos de impressão 3d
+author:             Liana Justo Petusk Filipe
+baseurl:            "/Cursos_3D_Jekyll"
+url:                "https://leppyt.github.io"
 remote-theme: jekyll-theme-clean-blog
 
 # Social Profiles
