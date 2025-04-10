@@ -2,7 +2,7 @@
 
 ## Para criar um post, faça upload ao diretório `_posts`. O nome do arquivo deve ser "AAAA-MM-DD-titulo-post.html".
 
-Primeiro, digite a Front Matter do post, que determina a estrutura da página.\
+Primeiro, digite a Front Matter do post, que determina a estrutura da página.
 
 ```markdown
 ---
@@ -17,7 +17,7 @@ ou um link para a imagem pode ser incluído aqui caso seja de um site externo)
 ---
 ```
 
-Após isso, você pode escrever seu post utilizando apenas tags de HTML de forma simplificada. Segue aqui exemplos:\
+Após isso, você pode escrever seu post utilizando apenas tags de HTML de forma simplificada. Segue aqui exemplos:
 
 
 ```html
