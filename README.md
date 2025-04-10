@@ -28,8 +28,11 @@ Após isso, você pode escrever seu post utilizando apenas tags de HTML de forma
 
 <blockquote class="blockquote">Tag para uma citação</blockquote>
 
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Erro ao carregar imagem"> (Imagens. src pode conter uma imagem nativa ao site ou o link a uma imagem externa)
-<span class="caption text-muted">Texto de legenda centralizado. A classe text-muted muda a cor do texto para um cinza mais leve, e pode ser incluído em qualquer tag que possui texto.</span>
+<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Erro">
+(Imagens. src pode conter uma imagem nativa ao site ou o link a uma imagem externa)
+<span class="caption text-muted">Texto de legenda centralizado.
+A classe text-muted muda a cor do texto para um cinza mais leve,
+e pode ser incluído em qualquer tag que possui texto.</span>
 ```
 
 Não se esqueça de fazer upload das umagens utilizadas na pasta img!\
