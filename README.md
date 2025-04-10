@@ -10,7 +10,7 @@ layout: post
 title: "Seu título aqui"
 subtitle: "Subtítulo do post"
 author: "Autor do post"
-date: AAAA-MM-DD [HH:MM:SS] (OBS: pode-se colocar uma data futura,
+date: AAAA-MM-DD HH:MM:SS (OBS: pode-se colocar uma data futura,
 e o site mostrará apenas naquela data. Horário é opcional.)
 background: '/img/posts/exemplo.jpg' (O upload da imagem é necessário,
 ou um link para a imagem pode ser incluído aqui caso seja de um site externo)
