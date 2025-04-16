@@ -38,10 +38,12 @@
     @media only screen and (min-width: 992px) {
         border-bottom: 1px solid transparent;
         background: transparent;
-
+        .navbar-back
+        {
+            padding: 10px 20px;
+        }
         .nav-back
         {
-                padding: 10px 20px;
                 color: $white;
 
                 &:focus,
