@@ -39,6 +39,16 @@
         border-bottom: 1px solid transparent;
         background: transparent;
 
+        .nav-back
+        {
+                color: $white;
+
+                &:focus,
+                &:hover {
+                    color: fade-out($white, .2);
+                }
+        }
+
         .navbar-brand {
             padding: 10px 20px;
             color: $white;
@@ -77,6 +87,7 @@
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
 
+
         &.is-fixed {
             /* when the user scrolls down, we hide the header right above the viewport */
             position: fixed;
@@ -87,10 +98,6 @@
             border-bottom: 1px solid darken($white, .05);
             background-color: fade-out($white, .1);
 
-            .nav-back
-            {
-                color: $white;
-            }
 
             .navbar-brand {
                 color: $gray-900;
