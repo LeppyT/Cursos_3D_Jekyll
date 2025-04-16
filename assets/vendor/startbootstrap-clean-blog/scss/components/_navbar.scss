@@ -7,7 +7,7 @@
 
     .nav-back
     {
-        color: $white !important;
+        color: $white;
     }
 
     .navbar-brand {
@@ -85,6 +85,11 @@
             transition: transform 0.2s;
             border-bottom: 1px solid darken($white, .05);
             background-color: fade-out($white, .1);
+
+            .nav-back
+            {
+                color: $gray-900 !important;
+            }
 
             .navbar-brand {
                 color: $gray-900;
