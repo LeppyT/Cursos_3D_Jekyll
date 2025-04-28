@@ -13,6 +13,12 @@ facebook_username:  StartBootstrap
 instagram_username:  
 linkedin_username:
 
+defaults:
+  - scope:
+      path: "/img"
+    values:
+      image: true
+
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
