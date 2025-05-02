@@ -8,6 +8,24 @@ header.masthead {
     position: relative;
     background-size: cover;
 
+    .caneta-purple{
+        background-color: $caneta-purple !important;
+    }
+    .intro-verde{
+        background-color: $intro-verde !important;
+    }
+    .bio-branco{
+        background-color: $bio-branco !important;
+    }
+    .modelagem-azul{
+        background-color: $modelagem-azul !important;
+    }
+    .odonto-azul{
+        background-color: $odonto-azul !important;
+    }
+    .resina-azul{
+        background-color: $resina-azul !important;
+    }
     .overlay {
         position: absolute;
         top: 0;
