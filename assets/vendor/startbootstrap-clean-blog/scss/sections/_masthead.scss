@@ -1,118 +1,118 @@
 // Styling for the masthead
 @import "../variables/colors";
 
-header {
-    .caneta-purple{
-        background-color: $caneta-purple !important;
-    }
-    .intro-verde{
-        background-color: $intro-verde !important;
-    }
-    .bio-branco{
-        background-color: $bio-branco !important;
-    }
-    .modelagem-azul{
-        background-color: $modelagem-azul !important;
-    }
-    .odonto-azul{
-        background-color: $odonto-azul !important;
-    }
-    .resina-azul{
-        background-color: $resina-azul !important;
-    }
-    .masthead {
-        // TIP: Background images are set within the HTML using inline CSS!
-        margin-bottom: 50px;
-        background: no-repeat center center;
-        background-color: $gray-600;
-        background-attachment: scroll;
-        position: relative;
-        background-size: cover;
+header.caneta-purple{
+    background-color: $caneta-purple !important;
+}
+header.intro-verde{
+    background-color: $intro-verde !important;
+}
+header.bio-branco{
+    background-color: $bio-branco !important;
+}
+header.modelagem-azul{
+    background-color: $modelagem-azul !important;
+}
+header.odonto-azul{
+    background-color: $odonto-azul !important;
+}
+header.resina-azul{
+    background-color: $resina-azul !important;
+}
 
-        
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background-color: $gray-900;
-            opacity: 0.1;
+
+header.masthead{
+    // TIP: Background images are set within the HTML using inline CSS!
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: $gray-600;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $gray-900;
+        opacity: 0.1;
+    }
+
+    .page-heading,
+    .post-heading,
+    .site-heading {
+        padding: 200px 0 150px;
+        color: white;
+
+        @media only screen and (min-width: 768px) {
+            padding: 200px 0;
+        }
+    }
+
+    .page-heading,
+    .site-heading {
+        text-align: center;
+
+        h1 {
+            font-size: 50px;
+            margin-top: 0;
         }
 
-        .page-heading,
-        .post-heading,
-        .site-heading {
-            padding: 200px 0 150px;
-            color: white;
-
-            @media only screen and (min-width: 768px) {
-                padding: 200px 0;
-            }
+        .subheading {
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 1.1;
+            display: block;
+            margin: 10px 0 0;
+            font-family: $headings-font-family;
         }
 
-        .page-heading,
-        .site-heading {
-            text-align: center;
-
+        @media only screen and (min-width: 768px) {
             h1 {
-                font-size: 50px;
-                margin-top: 0;
+                font-size: 80px;
             }
+        }
+    }
 
-            .subheading {
-                font-size: 24px;
-                font-weight: 300;
-                line-height: 1.1;
-                display: block;
-                margin: 10px 0 0;
-                font-family: $headings-font-family;
-            }
+    .post-heading {
+        h1 {
+            font-size: 35px;
+        }
 
-            @media only screen and (min-width: 768px) {
-                h1 {
-                    font-size: 80px;
-                }
+        .meta,
+        .subheading {
+            line-height: 1.1;
+            display: block;
+        }
+
+        .subheading {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 10px 0 30px;
+            font-family: $headings-font-family;
+        }
+
+        .meta {
+            font-size: 20px;
+            font-weight: 300;
+            font-style: italic;
+            font-family: $font-family-base;
+
+            a {
+                color: $white;
             }
         }
 
-        .post-heading {
+        @media only screen and (min-width: 768px) {
             h1 {
-                font-size: 35px;
-            }
-
-            .meta,
-            .subheading {
-                line-height: 1.1;
-                display: block;
+                font-size: 55px;
             }
 
             .subheading {
-                font-size: 24px;
-                font-weight: 600;
-                margin: 10px 0 30px;
-                font-family: $headings-font-family;
-            }
-
-            .meta {
-                font-size: 20px;
-                font-weight: 300;
-                font-style: italic;
-                font-family: $font-family-base;
-
-                a {
-                    color: $white;
-                }
-            }
-
-            @media only screen and (min-width: 768px) {
-                h1 {
-                    font-size: 55px;
-                }
-
-                .subheading {
-                    font-size: 30px;
-                }
+                font-size: 30px;
             }
         }
     }
