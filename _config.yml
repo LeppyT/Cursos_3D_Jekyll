@@ -7,10 +7,9 @@ url:                "https://leppyt.github.io"
 remote-theme: jekyll-theme-clean-blog
 future: true
 # Social Profiles
-twitter_username:
-github_username:
 facebook_username:  
 instagram_username:  cursos3dbr
+youtube_username: Cursos3DBrasil
 linkedin_username:
 
 defaults:
